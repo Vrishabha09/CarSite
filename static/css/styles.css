@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #f0c14b;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons .btn {
+    background-color: #f0c14b;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.auth-buttons .btn:hover {
+    background-color: #e6b134;
+}
+
+/* Company Info Section */
+.company-info {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.company-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.company-info p {
+    font-size: 1.2rem;
+}
+
+/* Car Slider Section */
+.car-slider {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.car-slider h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.car-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 250px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 1rem;
+    text-align: left;
+}
+
+.card-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-info p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
